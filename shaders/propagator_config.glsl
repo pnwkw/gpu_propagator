@@ -1,0 +1,10 @@
+const float maxZ = 450.0f;
+const float maxR = 490.0f;
+const float maxOrbs = 0.5f;
+const float fgkB2C = 0.299792458e-2f;
+const float kPtMinSqr = 1e-20f;
+const float kAMin     = 1e-10f;
+const float Delta = 0.1f;
+const float PI = 3.14159265359f;
+const float MaxAng = 45.0f;
+const float MaxStep = 20.0f;

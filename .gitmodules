@@ -1,0 +1,16 @@
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/g-truc/glm
+[submodule "external/json"]
+	path = external/json
+	url = https://github.com/ArthurSonzogni/nlohmann_json_cmake_fetchcontent
+[submodule "external/glbinding"]
+	path = external/glbinding
+	url = https://github.com/cginternals/glbinding
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw
+[submodule "external/spdlog"]
+	path = external/spdlog
+	url = https://github.com/gabime/spdlog.git
+	branch = tags/1.9.2

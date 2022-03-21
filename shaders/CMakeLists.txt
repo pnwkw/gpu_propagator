@@ -1,0 +1,10 @@
+add_shader_target(helix_v helix_v.vert)
+add_shader_target(helix_g_const helix_g_const.geom)
+add_shader_target(helix_g_const_barrel helix_g_const_barrel.geom)
+add_shader_target(helix_g_glsl helix_g_glsl.geom)
+add_shader_target(helix_blue_f helix_blue_f.frag)
+add_shader_target(helix_red_f helix_red_f.frag)
+
+add_library(helix INTERFACE)
+add_dependencies(helix helix_v helix_g_const helix_g_const_barrel helix_g_glsl helix_blue_f helix_red_f)
+add_library(shader::helix ALIAS helix)
