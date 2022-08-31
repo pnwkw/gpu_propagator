@@ -1,6 +1,6 @@
-# Visualisation of tracks using accurate model of ALICE detector magnets
+# GPU propagation and visualisation of particle collisions with accurate model of ALICE detector magnetic field
 
-This repository contains supplemental code for poster presentation of the same title at *29th International Conference On Ultra - Relativistic Nucleus - Nucleus Collisions* - **Quark Matter 2022**.
+This repository contains supplemental code for performance evaluation of GPU-based particle propagator, developed for our paper *GPU propagation and visualisation of particle collisions with accurate model of ALICE detector magnetic field*.
 
 
 ## Installation
